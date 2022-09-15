@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_expiration_date_expeirations",
+  "info": {
+    "displayName": "expeiration",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "prodDate": {
+      "type": "date"
+    },
+    "expDate": {
+      "type": "date"
+    }
+  }
+}
