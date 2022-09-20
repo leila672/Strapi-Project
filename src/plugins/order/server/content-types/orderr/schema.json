@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orderrs",
+  "info": {
+    "singularName": "orderr",
+    "pluralName": "orderrs",
+    "displayName": "Orderr"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
