@@ -48,6 +48,12 @@
       "relation": "manyToOne",
       "target": "plugin::order.orderr",
       "inversedBy": "products"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "mappedBy": "product"
     }
   }
 }
